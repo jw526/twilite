@@ -1,0 +1,122 @@
+.navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: buttonface;
+
+}
+
+
+.navlink
+{
+    margin-left:8px;
+    margin-right:8px;
+}
+
+
+
+/* Set background color and font family for the entire page */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the login form on the page */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+  }
+  
+  /* Style the login form header */
+  .login-form h3 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the input fields and labels */
+  .login-form label, .login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form label {
+    font-weight: bold;
+  }
+  
+  .login-form input[type="text"], .login-form input[type="password"] {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the submit button */
+  .login-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+
+.logo
+{
+    height:50px;
+}
+
+.header
+{
+    display:flex;
+    justify-content: space-around;
+
+    background-color:#004477;
+    color:white;
+    font-size:40pt;
+    
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.authnav
+{
+    font-size:10pt;    
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.homepage
+{
+    background:url("/public/sunrise.jpg");
+    height:80vh;
+    color: white;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.homepage p
+{
+    margin-left:10vw;
+    padding-top:20px;
+    width:30vw;
+}
+
+.admin-task
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
